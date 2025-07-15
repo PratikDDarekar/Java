@@ -19,3 +19,4 @@ public class MyFirst {
     }
     
 }
+C:\Users\darek\Documents\NetBeansProjects\MyFirst\src\myfirst\MyFirst.java
