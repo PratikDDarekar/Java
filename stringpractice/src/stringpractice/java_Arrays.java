@@ -99,12 +99,13 @@ for(String X:arr)
 {
 System.out.println(X);
 
+//sorting numbers
 java.util.Arrays.sort(a);
  for(int Y:a)
 {
 System.out.println(Y);}
    }
 }
-   }
+}
 
 
