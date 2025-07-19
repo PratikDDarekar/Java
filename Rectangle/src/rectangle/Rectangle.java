@@ -6,13 +6,30 @@ package rectangle;
 
 public class Rectangle {
 
-        int length;
-        int breadth;
+        private int length;
+        private int breath;
         
         public int area()
         {
-            return length*breadth;
+            return length*breath;
         }
+         public void setLength(int l)
+         {
+             length = l;
+         }
+         public void setBreath(int b)
+         {
+             breath= b;
+         }
+         
+         public int getLength()
+         {
+             return length;
+         }
+         public int getBreath()
+         {
+             return breath;
+         }
               
       public int perimeter()
         {
@@ -21,7 +38,7 @@ public class Rectangle {
       
       public boolean isSquare()
       {
-          return length==breadth;
+          return length==breath;
       }
            
 }
@@ -30,12 +47,17 @@ class RectangleTest{
 public static void main(String []args){
  
     Rectangle r1 = new Rectangle();
-    r1.length =5;
-     r1.breadth =5;
+    r1.setLength(5);
+     r1.setBreath(10);
     
      System.out.println("Area of Rectangle : "+ r1.area());
      System.out.println("Perimeter of Rectangle : "+ r1.perimeter());
      System.out.println("Is it a Square : "+ r1.isSquare());
+
+      System.out.println( r1.getLength());
+      System.out.println( r1.getBreath());
+              
+
 
 }
 }
