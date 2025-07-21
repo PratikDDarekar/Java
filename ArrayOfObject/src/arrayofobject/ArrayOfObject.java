@@ -109,7 +109,7 @@ class Student2Test
    {
       Student2 s = new Student2(43,"prajwal","ENTC"); 
       s.setSubjects("english");
-      System.out.println(s);
+      System.out.println(s);//error
        
    } 
     
