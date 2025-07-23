@@ -75,7 +75,7 @@ class Car
 {
     public void start(){System.out.println("Car starts");}
      public void stop(){System.out.println("Car stops");}
-      public void changeGear(){System.out.println("Gear change Manually");}
+      private void changeGear(){System.out.println("Gear change Manually");}
 }
 
 class LuxuryCar extends Car
