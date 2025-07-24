@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package abstarctclass2;
 
 
@@ -61,15 +58,22 @@ class Test
      {
          System.out.println("Circle : ");
          
-         Shape s = new Circle(20);
+       //  Shape s = new Circle(20); //or
+        Circle s = new Circle(20);
            System.out.println(s.area());
            System.out.println(s.perimeter());
+            //OR
+        Shape s3 = s;
+        System.out.println(s3.area());
          
           System.out.println("Rectangle : ");
            
+        //Rectangle s2 = new Rectangle(5,8);  //or
          Shape s2 = new Rectangle(5,8);
            System.out.println(s2.area());
            System.out.println(s2.perimeter());
+           
+       
          
      }  
 }
