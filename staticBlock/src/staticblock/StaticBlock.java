@@ -39,7 +39,7 @@ class Test
 {
       public static void main(String[] args) 
       {
-         StaticBlock2 sb = new StaticBlock2();  
+        // StaticBlock2 sb = new StaticBlock2();  
          System.out.println("Main Block");
          StaticBlock2 sb2 = new StaticBlock2();  
       }
