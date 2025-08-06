@@ -1,20 +1,61 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 
-/**
- *
- * @author darek
- */
+
+
+/** @author Abdul Bari
+ *  @version 2.0
+ *  @since 2015
+ **/
 package javadocdemo;
 
 
-public class JavaDocDemo {
+/**
+ * 
+ * @author abdulbari
+ * 
+ * Class for Library Book
+ */
 
+
+ class Book
+{ 
+    
+    /**
+     * @value 10 default value
+     */
+    static int val=10;
+    
+    
+    /**
+     * Parametrized Constructor
+     * @param s Book Name
+     */
+    
+    public Book(String s){
+    }
   
-    public static void main(String[] args) {
-      
+    /**
+     * Issue a Book to a Student
+     * @param roll roll number of a Student
+     * @throws Exception if book is not available, throws Exception
+     */
+    public void issue(int roll) throws Exception{
     }
     
+    /**
+     * Check if book is available
+     * @param str Book Name
+     * @return if book is available returns true else false
+     */
+    public boolean available(String str){
+        return true;
+    }
+    
+    /**
+     * Get Book name
+     * @param id book id
+     * @return returns book name
+     */
+    public String getName(int id){       
+        return "";
+    }
 }
