@@ -20,7 +20,7 @@ public class GenericIntro {
      //   gd.data[2]=10;//giving the compile time error
      
      
-    String str = gd.data[1];
+    String str = gd.data[1];//we not need to typecaste it
     }
     
 }
