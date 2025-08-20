@@ -50,7 +50,7 @@ public class ComparableInterface {
     TreeSet<Point> ts=new TreeSet<>();//making the object of treeset in which we are giving generic value of a class for creating the object
       
      ts.add(new Point(1,1));
-      
+      //  ts.add(new Point(5,2));
       ts.add(new Point(5,5));
        ts.add(new Point(5,2));
 
