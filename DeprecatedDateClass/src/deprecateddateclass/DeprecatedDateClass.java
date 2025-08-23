@@ -13,9 +13,9 @@ public class DeprecatedDateClass
         System.out.println(d.getYear()+1900);
         
         
-              System.out.println(System.currentTimeMillis());
+              System.out.println(System.currentTimeMillis());//current milliseconds
               System.out.println(System.currentTimeMillis()/1000/60/60/24/365);//how many years passed
-              System.out.println(Long.MAX_VALUE);
+              System.out.println(Long.MAX_VALUE);//maximum long value time is represented as long value
     }
     
 }
