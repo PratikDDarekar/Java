@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package ddlusingjdbc;
 
-/**
- *
- * @author darek
- */
+package ddlusingjdbc;
+import java.sql.*;
+import java.util.*;
+
+//create and drop for DDL also we are using executeUpdate as Llike DML
+
 public class DDLusingJDBC {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+
+    public static void main(String[] args)throws Exception
+    {
+        Class.forName("org.sqlite.JDBC");
+       
+        Connection con = DriverManager.getConnection("jdbc:sql:C://sqlite//univ");
+        
+        Statement stm=con.createStatement(); 
+        
+        stm.executeUpdate("create table Temp(a integer,b float)");//create
+        stm.executeUpdate("drop table Temp");//drop
+        
+        stm.close();
+        con.close();
     }
     
 }

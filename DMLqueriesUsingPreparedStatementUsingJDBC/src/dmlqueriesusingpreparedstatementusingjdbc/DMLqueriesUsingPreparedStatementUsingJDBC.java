@@ -26,6 +26,11 @@ public class DMLqueriesUsingPreparedStatementUsingJDBC {
         stm.setString(3, city);
         
         stm.executeUpdate();
+        
+        
+         stm.close();
+         con.close();
+    
     }
     
 }

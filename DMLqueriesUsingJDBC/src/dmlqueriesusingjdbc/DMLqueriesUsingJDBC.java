@@ -8,7 +8,7 @@ public class DMLqueriesUsingJDBC {
     
     public static void main(String[] args)throws Exception {
       
-         Class.forName("org.sqlite.JDBC");
+        Class.forName("org.sqlite.JDBC");
        
         Connection con = DriverManager.getConnection("jdbc:sql:C://sqlite//univ");
         
