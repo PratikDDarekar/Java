@@ -206,3 +206,12 @@
 /DatagramCommunicationSenderReceiverClientServer/nbproject/private/
 /DatagramCommunicationSenderReceiverClientServer/build/
 /DatagramCommunicationSenderReceiverClientServer/dist/
+/database/nbproject/private/
+/database/build/
+/PreparedStatementsinJDBC/nbproject/private/
+/PreparedStatementsinJDBC/build/
+/DMLqueriesUsingJDBC/nbproject/private/
+/DMLqueriesUsingJDBC/build/
+/DMLqueriesUsingPreparedStatementUsingJDBC/nbproject/private/
+/DMLqueriesUsingPreparedStatementUsingJDBC/build/
+/DDLusingJDBC/nbproject/private/
