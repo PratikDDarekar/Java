@@ -1,20 +1,42 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+//for this need to download and setup the JAVAFX
 package propertydemo2;
 
-/**
- *
- * @author darek
- */
+import javafx.application.*;
+import javafx.stage.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.control.Alert.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+
+
+public class PropertyDemo extends Application
+{
+    public void start(Stage stage) throws Exception
+    {
+        Button b=new Button("Click _Me");
+        b.setTextFill(Color.BLUE);
+        b.setMnemonicParsing(true);
+        Tooltip tp=new Tooltip("Click this Button to Save Data");
+        b.setTooltip(tp);
+       // b.setStyle("-fx-border-color:yellow;-fx-background-color:red
+        Alert a=new Alert(AlertType.INFORMATION,"Button is Clicked");
+       
+       b.setOnAction(e->a.show());
+       
+        FlowPane fp=new FlowPane(b);
+        
+        Scene sc=new Scene(fp,400,400);
+        stage.setScene(sc);
+        stage.show();
+        
+        
+    }
 public class PropertyDemo2 {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+         launch(args);
     }
     
 }
